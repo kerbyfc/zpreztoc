@@ -15,4 +15,4 @@ mkdir -p $HOME/.zsh.prompts
 
 [[ ! -d "zpreztoc" ]] && git clone --recursive https://github.com/kerbyfc/zpreztoc.git "${ZDOTDIR:-$HOME}/.zprezto/zpreztoc"
 
-ln -nfs "$HOME/.zprezto/zpreztoc/zpreztorc" "${ZDOTDIR:-$HOME}/.zpreztorc
+ln -nfs "$HOME/.zprezto/zpreztoc/zpreztorc" "${ZDOTDIR:-$HOME}/.zpreztorc"
