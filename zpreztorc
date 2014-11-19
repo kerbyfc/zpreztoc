@@ -133,3 +133,4 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 # Auto start a session when Zsh is launched.
 # zstyle ':prezto:module:tmux' auto-start 'yes'
 
+for config_file ($HOME/.zprezto/zpreztoc/*.zsh) source $config_file
