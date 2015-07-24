@@ -33,6 +33,8 @@ alias zr='source ~/.zshrc'
 
 # Git Aliases
 
+git config --global core.editor vi
+
 git config --global alias.st status
 git config --global alias.ci commit
 git config --global alias.br branch
