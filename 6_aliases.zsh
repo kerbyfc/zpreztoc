@@ -1,3 +1,4 @@
+echo "MY ALIASES"
 # Aliases in this file are bash and zsh compatible
 
 # PS
@@ -32,6 +33,14 @@ alias ze='vim ~/.zshrc'
 alias zr='source ~/.zshrc'
 
 # Git Aliases
+
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.br branch
+git config --global alias.co checkout
+git config --global alias.df diff
+git config --global alias.lg log -p
+
 alias gs='git status'
 alias gstsh='git stash'
 alias gst='git stash'
@@ -66,7 +75,8 @@ alias co='git co'
 alias gf='git fetch'
 alias gfch='git fetch'
 alias gd='git diff'
-alias gb='git b'
+alias gb='git branch -v'
+alias gbf='git branch -av G'
 alias gbd='git b -D -w'
 alias gdc='git diff --cached -w'
 alias gpub='grb publish'
@@ -108,7 +118,6 @@ alias rdmr='rake db:migrate:redo'
 # spb = sprintly branch - create a branch automatically based on the bug you're working on
 alias spb="git checkout -b \`sp | tail -2 | grep '#' | sed 's/^ //' | sed 's/[^A-Za-z0-9 ]//g' | sed 's/ /-/g' | cut -d"-" -f1,2,3,4,5\`"
 
-
 # Global aliases
 alias -g ...='../..'
 alias -g ....='../../..'
@@ -127,5 +136,4 @@ alias -g G='| grep' # now you can do: ls foo G something
 # to find all files containing 'foo' in the name
 function fn() { ls **/*$1* }
 
-alias -g gbf='git branch -av G'
-
+alias chrome="open -n /Applications/Google\ Chrome.app --args --allow-insecure-localhost --disable-web-security --remember-cert-error-decisions"
