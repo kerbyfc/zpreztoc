@@ -1,4 +1,3 @@
-echo "MY ALIASES"
 # Aliases in this file are bash and zsh compatible
 
 # PS
