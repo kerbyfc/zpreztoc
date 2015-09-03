@@ -137,4 +137,4 @@ alias -g G='| grep' # now you can do: ls foo G something
 # to find all files containing 'foo' in the name
 function fn() { ls **/*$1* }
 
-alias chrome="open -n /Applications/Google\ Chrome.app --args --allow-insecure-localhost --disable-web-security --remember-cert-error-decisions"
+alias chrome="open -n /Applications/Google\ Chrome.app --args --allow-insecure-localhost --disable-web-security --remember-cert-error-decisions --ignore-certificate-errors"
