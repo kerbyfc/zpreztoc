@@ -42,6 +42,7 @@ git config --global alias.co checkout
 git config --global alias.df diff
 git config --global alias.lg log -p
 
+alias gsu='git submodule update'
 alias gs='git status'
 alias gstsh='git stash'
 alias gst='git stash'
@@ -85,6 +86,7 @@ alias gtr='grb track'
 alias gpl='git pull'
 alias gplr='git pull --rebase'
 alias gps='git push'
+alias gprune='git push --all --prune'
 alias gpsh='git push'
 alias gnb='git nb' # new branch aka checkout -b
 alias grs='git reset'
