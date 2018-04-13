@@ -1,2 +1,6 @@
-export GREP_COLOR='1;33'
 prompt steeef
+
+zstyle ':prezto:module:syntax-highlighting' styles \
+  'builtin' 'bg=none' \
+  'command' 'bg=none' \
+  'function' 'bg=none'
